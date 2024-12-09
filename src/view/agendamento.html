@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+        .form-container {
+            background-color: #495057;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 700px;
+            margin: auto;
+        }
+        .header-image {
+            max-width: 40%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .btn-dark {
+            background-color: #212529;
+            border-color: #212529;
+        }
+        .btn-dark:hover {
+            background-color: #16181b;
+        }
+        .form-label {
+            color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="form-container">
+            <div class="text-center">
+                <img src="barbeiro.png" 
+                     alt="Agendamento" 
+                     class="header-image">
+            </div>
+            <h2 class="text-center mb-4">Agendamento Seu Horário</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="idAgendamento" class="form-label">ID do Agendamento</label>
+                    <input type="number" class="form-control" id="idAgendamento" placeholder="Exemplo: 202" required>
+                </div>
+                <div class="mb-3">
+                    <label for="dataAgendamento" class="form-label">Data</label>
+                    <input type="date" class="form-control" id="dataAgendamento" required>
+                </div>
+                <div class="mb-3">
+                    <label for="horaAgendamento" class="form-label">Hora</label>
+                    <input type="time" class="form-control" id="horaAgendamento" required>
+                </div>
+                <div class="mb-3">
+                    <label for="cliente" class="form-label">Cliente</label>
+                    <select class="form-control" id="cliente" required>
+                        <option value="">Selecione um cliente</option>
+                        <option value="101">João Silva</option>
+                        <option value="102">Maria Souza</option>
+                        <option value="103">Carlos Oliveira</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="barbeiro" class="form-label">Barbeiro</label>
+                    <select class="form-control" id="barbeiro" required>
+                        <option value="">Selecione um barbeiro</option>
+                        <option value="201">Pedro Santos</option>
+                        <option value="202">Lucas Lima</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="servicos" class="form-label">Serviços</label>
+                    <select class="form-control" id="servicos" required>
+                        <option value="">Selecione um serviço</option>
+                        <option value="301">Corte de cabelo</option>
+                        <option value="302">Barba completa</option>
+                        <option value="303">Hidratação</option>
+                        <option value="304">Coloração</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-dark w-100">Agendar</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
