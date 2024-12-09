@@ -1,8 +1,8 @@
-## Getting Started
+## Blades & Bytes - Website Agendamento de Barbearia
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
+Este projeto contém o código e os materiais relacionados a um projeto interdisciplinar desenvolvido no âmbito das disciplinas de Banco de Dados, Engenharia de Software, Linguagem de Programação e Estrutura de Dados, do curso de Informática para Negócios.
+O projeto tem como objetivo integrar os conceitos e técnicas abordados nessas disciplinas para desenvolver um website em Java, focado no agendamento de serviços de barbearia.
+## Estrutura do Projeto
 
 The workspace contains two folders by default, where:
 
