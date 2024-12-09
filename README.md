@@ -4,14 +4,13 @@ Este projeto contém o código e os materiais relacionados a um projeto interdis
 O projeto tem como objetivo integrar os conceitos e técnicas abordados nessas disciplinas para desenvolver um website em Java, focado no agendamento de serviços de barbearia.
 ## Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+A estrutura do projeto é organizado da seguinte forma:
 
-- `src/model`: Contém as classes javas
-- `lib`: the folder to maintain dependencies
+- `src/model`:  Dentro da pasta `model`, estão localizadas as classes que representam as entidades principais do sistema. Cada classe contém atributos que descrevem as propriedades das entidades e métodos para manipular esses dados.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `src/view`: Dentro da pasta `view`, você encontrará os arquivos responsáveis pela parte visual e interativa do site. A estrutura é organizada para garantir uma boa separação entre o conteúdo, a lógica de apresentação (HTML) e o estilo (CSS).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
 
 ## Dependency Management
 
