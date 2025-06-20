@@ -10,7 +10,7 @@ O objetivo principal deste projeto é criar um sistema de agendamento para barbe
 
 - **Cadastro de Clientes**: Permite que novos clientes sejam cadastrados no sistema.
 - **Cadastro de Barbeiros**: Permite que novos barbeiros sejam cadastrados no sistema.
-- **Cadastro de Serviços**: Permite cadastrar os serviços oferecidos pela barbearia (ex: corte de cabelo, barba, etc.).
+- **Cadastro de Serviços**: Permite cadastrar os serviços oferecidos pela barbearia (ex: corte de cabelo, barba, etc.), esse cadastro vai de acordo com a especialidade do profissional.
 - **Agendamento de Serviços**: Clientes podem agendar serviços com os funcionários disponíveis.
 - **Visualização de Agendamentos**: Funcionalidade para visualizar os agendamentos realizados.
 
@@ -21,7 +21,11 @@ O objetivo principal deste projeto é criar um sistema de agendamento para barbe
 src/view: Dentro da pasta view, você encontrará os arquivos responsáveis pela parte visual e interativa do site. A estrutura é organizada para garantir uma boa separação entre o conteúdo, a lógica de apresentação (HTML) e o estilo (CSS).
 
 
+## Autores 
 
+Murilo Henrique Santos de Oliveira
+Gabriela Santos Ortis
+Lucas Grebalos deSouza
 
 
 
